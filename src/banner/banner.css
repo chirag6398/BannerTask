@@ -1,0 +1,193 @@
+.banner__background{
+    width: 100vw;
+    height: 100vh;
+    background-color: #029af0;
+    overflow: hidden;
+    position: relative;
+    z-index: 100;
+}
+p{
+    margin: 0px !important;
+}
+
+.banner_content{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 56px;
+    position: relative;
+    z-index: 100;
+}
+.banner_tagline{
+    padding-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.banner_row{
+    display: flex;
+    gap: 10px;
+}
+
+.banner_heading{
+    color: #fffffd;
+    font-weight: 800;
+    font-size: 40px;
+}
+.banner_smallTagLine{
+    color:black;
+    margin: 0px;
+    background: #fffffd;
+    padding: 10px;
+    border-radius: 1px;
+    padding-right: 20px;
+    /* border-top: 10px solid #fffffd; */
+    border-right: 10px solid transparent;
+}
+.banner__subHeading{
+    color: #fffffd;
+    opacity: 0.7;
+}
+
+
+.banner_cloud {
+    width: 200px;
+    opacity: 0.9;
+    height: 100px;
+    border-radius: 100px;
+    background-color: white;
+  }
+
+.banner_cloud1{
+    position: absolute;
+    right: 22px;
+}
+.banner_cloud2{
+    position: absolute;
+    left: 490px;
+    top: 301px;
+}
+.banner_cloud3{
+    position: absolute;
+    right: 8px;
+    top: 30px;
+}
+.banner_cloud4{
+    position: absolute;
+    left: 346px;
+    top: 10px;
+
+}
+  
+.banner_cloud:before,
+  .banner_cloud:after {
+    content: "";
+    position: absolute;
+    background-color: white;
+  }
+    
+  .banner_cloud:before {
+    width: 80px;
+    height: 80px;
+    border-radius: 40px;
+    top: -30px;
+    left: 30px;
+  }
+  
+  .banner_cloud:after {
+    width: 120px;
+    height: 120px;
+    border-radius: 60px;
+    top: -50px;
+    right: 30px;
+  }
+  .banner_squareCloud1{
+    background-color: #7eccfa;
+    height: 100px;
+    width: 100px;
+    border-radius: 27px;
+    opacity: 0.7;
+    position: absolute;
+    right: 189px;
+    top: 109px;
+  }
+  .banner_squareCloud2{
+    background-color: #bae4fc;
+    height: 100px;
+    width: 100px;
+    border-radius: 27px;
+    opacity: 0.7;
+    position: absolute;
+    right: 125px;
+    top: 150px;
+  }
+
+  .banner__largeClouds{
+    height: 92px;
+    background: #fffffd;
+    position: absolute;
+    width: 100vw;
+    z-index: 100;
+    bottom: 0px;
+
+  }
+
+
+.banner_cloud5{
+    position: absolute;
+    bottom: 8px;
+    left: 0px;
+    width: 256px;
+}
+    
+
+.banner_cloud6{
+    position: absolute;
+    right: -8px;
+    bottom: 10px;
+    width: 252px;
+}
+
+.banner_cloud8{
+    position: absolute;
+    right: 211px;
+    bottom: 10px;
+    width: 252px;
+}
+
+.banner_cloud7{
+    position: absolute;
+    left: 201px;
+    bottom: 23px;
+    width: 255px;
+
+}
+.banner_cloud9{
+    position: absolute;
+    right: 411px;
+    bottom: 10px;
+    width: 252px;
+}
+
+.banner_cloud10{
+    position: absolute;
+    left: 401px;
+    bottom: 23px;
+    width: 255px;
+
+}
+.banner_cloud11{
+    position: absolute;
+    right: 611px;
+    bottom: 10px;
+    width: 252px;
+}
+
+.banner_cloud12{
+    position: absolute;
+    left: 601px;
+    bottom: 23px;
+    width: 255px;
+
+}
+
