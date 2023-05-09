@@ -62,6 +62,7 @@ p{
 }
 .banner_row{
     display: flex;
+    flex-wrap: wrap;
     gap: 10px;
 }
 
@@ -83,6 +84,13 @@ p{
 .banner__subHeading{
     color: #fffffd;
     opacity: 0.7;
+}
+.banner__largeClouds1{
+    position: absolute;
+    bottom: 0px;
+    height: 30px;
+    width: 100%;
+    background-image: url("../asset/images/cloud.png") ;
 }
 
 .banner_squareCloud1{
