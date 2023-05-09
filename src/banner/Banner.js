@@ -1,6 +1,6 @@
 import React from "react";
 import Button from "react-bootstrap/Button";
-import cloudImg from "../asset/images/cloud.png";
+// import cloudImg from "../asset/images/twoWhite.jpeg";
 import "./banner.css";
 
 export default function Banner() {
@@ -42,10 +42,9 @@ export default function Banner() {
         <div className="cloud_two"></div>
         <div className="cloud_three"></div>
         <div className="cloud_four"></div>
-        <div>
+        {/* <div>
           <img src={cloudImg} alt="..." />
-        </div>
-        {/* <div className="banner__largeClouds1"></div> */}
+        </div> */}
       </div>
     </div>
   );
