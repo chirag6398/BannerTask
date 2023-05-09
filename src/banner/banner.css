@@ -10,6 +10,42 @@ p{
     margin: 0px !important;
 }
 
+
+.cloud, .cloud_two, .cloud_three, .cloud_four{
+    border-radius:50%;
+    position: absolute;
+    top: 50%; left: 50%;
+    margin-top: -20px;
+    margin-left: -20px;
+    background: #FFFFFF;
+    height: 50px; width: 60px;
+    box-shadow:
+          #FFFFFF 65px -15px 0 -5px, 
+          #FFFFFF 25px -25px, 
+          #FFFFFF 30px 10px, 
+          #FFFFFF 60px 15px 0 -10px, 
+          #FFFFFF 85px 5px 0 -5px;
+  }
+  .cloud{
+    top: 7%; left: 95%;
+  }
+  
+  .cloud_two{
+      top: 9%; left: 31%;
+    
+  }
+  
+  .cloud_three{
+      top: 42%; left: 51%;
+    
+  }
+
+  .cloud_four{
+    top: 62%; left: 31%;
+  
+}
+
+
 .banner_content{
     display: flex;
     flex-direction: column;
@@ -49,62 +85,10 @@ p{
     opacity: 0.7;
 }
 
-
-.banner_cloud {
-    width: 200px;
-    opacity: 0.9;
-    height: 100px;
-    border-radius: 100px;
-    background-color: white;
-  }
-
-.banner_cloud1{
-    position: absolute;
-    right: 22px;
-}
-.banner_cloud2{
-    position: absolute;
-    left: 490px;
-    top: 301px;
-}
-.banner_cloud3{
-    position: absolute;
-    right: 8px;
-    top: 30px;
-}
-.banner_cloud4{
-    position: absolute;
-    left: 346px;
-    top: 10px;
-
-}
-  
-.banner_cloud:before,
-  .banner_cloud:after {
-    content: "";
-    position: absolute;
-    background-color: white;
-  }
-    
-  .banner_cloud:before {
-    width: 80px;
-    height: 80px;
-    border-radius: 40px;
-    top: -30px;
-    left: 30px;
-  }
-  
-  .banner_cloud:after {
-    width: 120px;
-    height: 120px;
-    border-radius: 60px;
-    top: -50px;
-    right: 30px;
-  }
-  .banner_squareCloud1{
+.banner_squareCloud1{
     background-color: #7eccfa;
-    height: 100px;
-    width: 100px;
+    height: 150px;
+    width: 150px;
     border-radius: 27px;
     opacity: 0.7;
     position: absolute;
@@ -113,8 +97,8 @@ p{
   }
   .banner_squareCloud2{
     background-color: #bae4fc;
-    height: 100px;
-    width: 100px;
+    height: 150px;
+    width: 150px;
     border-radius: 27px;
     opacity: 0.7;
     position: absolute;
@@ -122,72 +106,42 @@ p{
     top: 150px;
   }
 
-  .banner__largeClouds{
-    height: 92px;
-    background: #fffffd;
-    position: absolute;
-    width: 100vw;
-    z-index: 100;
-    bottom: 0px;
 
-  }
-
-
-.banner_cloud5{
-    position: absolute;
-    bottom: 8px;
-    left: 0px;
-    width: 256px;
-}
+  @media (max-width: 1128px) {
+    .cloud{
+        top: 7%; left: 95%;
+      }
+      
+      .cloud_two{
+        top: 1%;
+        left: 1%;
+      }
+      
+      .cloud_three{
+        top: 34%;
+        left: 82%;
+        
+      }
     
-
-.banner_cloud6{
-    position: absolute;
-    right: -8px;
-    bottom: 10px;
-    width: 252px;
-}
-
-.banner_cloud8{
-    position: absolute;
-    right: 211px;
-    bottom: 10px;
-    width: 252px;
-}
-
-.banner_cloud7{
-    position: absolute;
-    left: 201px;
-    bottom: 23px;
-    width: 255px;
-
-}
-.banner_cloud9{
-    position: absolute;
-    right: 411px;
-    bottom: 10px;
-    width: 252px;
-}
-
-.banner_cloud10{
-    position: absolute;
-    left: 401px;
-    bottom: 23px;
-    width: 255px;
-
-}
-.banner_cloud11{
-    position: absolute;
-    right: 611px;
-    bottom: 10px;
-    width: 252px;
-}
-
-.banner_cloud12{
-    position: absolute;
-    left: 601px;
-    bottom: 23px;
-    width: 255px;
-
-}
-
+      .cloud_four{
+        top: 85%;
+        left: 8%;
+      
+    }
+    .banner_squareCloud1, .banner_squareCloud2{
+        height: 120px;
+        width: 120px;
+    }
+    .banner_squareCloud1{
+        right: 63px;
+        top: 470px;
+    }
+    .banner_squareCloud2{
+        right: 16px;
+        top: 531px;
+    
+    }
+    .banner_content{
+        gap:0px;
+    }
+  }

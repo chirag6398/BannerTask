@@ -37,43 +37,12 @@ export default function Banner() {
         </div>
         <div className="banner_squareCloud1"></div>
         <div className="banner_squareCloud2"></div>
-        <div className="banner_cloud banner_cloud1"></div>
-        <div className="banner_cloud banner_cloud2"></div>
-        <div className="banner_cloud banner_cloud3"></div>
-        <div className="banner_cloud banner_cloud4"></div>
-        <div
-          style={{ opacity: 1 }}
-          className="banner_cloud banner_cloud5"
-        ></div>
-        <div
-          style={{ opacity: 1 }}
-          className="banner_cloud banner_cloud6"
-        ></div>
-        <div
-          style={{ opacity: 1 }}
-          className="banner_cloud banner_cloud7"
-        ></div>
-        <div
-          style={{ opacity: 1 }}
-          className="banner_cloud banner_cloud8"
-        ></div>
-        <div
-          style={{ opacity: 1 }}
-          className="banner_cloud banner_cloud9"
-        ></div>
-        <div
-          style={{ opacity: 1 }}
-          className="banner_cloud banner_cloud10"
-        ></div>
-        <div
-          style={{ opacity: 1 }}
-          className="banner_cloud banner_cloud11"
-        ></div>
-        <div
-          style={{ opacity: 1 }}
-          className="banner_cloud banner_cloud12"
-        ></div>
-        <div className=" banner__largeClouds"></div>
+        <div className="cloud"></div>
+        <div className="cloud_two"></div>
+        <div className="cloud_three"></div>
+        <div className="cloud_four"></div>
+        <div className="banner__largeClouds1"></div>
+        <div className="banner__largeClouds"></div>
       </div>
     </div>
   );
