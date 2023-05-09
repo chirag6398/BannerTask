@@ -114,6 +114,14 @@ p{
     top: 150px;
   }
 
+  .banner_bottomImg{
+        opacity: 1;
+        position: absolute;
+        bottom: 0px;
+        height: 250px;
+        width: 100%;
+
+  }
 
   @media (max-width: 1128px) {
     .cloud{
@@ -132,7 +140,7 @@ p{
       }
     
       .cloud_four{
-        top: 85%;
+        top: 75%;
         left: 8%;
       
     }
@@ -146,10 +154,15 @@ p{
     }
     .banner_squareCloud2{
         right: 16px;
-        top: 531px;
+        top: 504px;
+
     
     }
     .banner_content{
         gap:0px;
     }
+    .banner_bottomImg{
+        height: 70px;
+
+  }
   }
